@@ -1,6 +1,6 @@
 {
   "name": "kolla",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Simple file watcher based on chokidar.",
   "main": "dist/kolla.umd.js",
   "jsnext:main": "dist/kolla.es6.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benjick/kolla.git"
+    "url": "git+https://github.com/benjick/kolla.js.git"
   },
   "keywords": [
     "watch", "watcher", "chokidar", "watchify"
@@ -25,14 +25,14 @@
   "author": "Max Malm",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/benjick/kolla/issues"
+    "url": "https://github.com/benjick/kolla.js/issues"
   },
   "files": [
     "lib",
     "dist",
     "bin"
   ],
-  "homepage": "https://github.com/benjick/kolla#readme",
+  "homepage": "https://github.com/benjick/kolla.js#readme",
   "devDependencies": {
     "babel-eslint": "^5.0.0-beta6",
     "babel-preset-es2015-rollup": "^1.1.1",
