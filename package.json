@@ -1,0 +1,52 @@
+{
+  "name": "kolla",
+  "version": "0.0.1",
+  "description": "Sample project for packages built with rollup.",
+  "main": "dist/kolla.umd.js",
+  "jsnext:main": "dist/kolla.es6.js",
+  "scripts": {
+    "prebuild": "eslint lib test",
+    "build": "rollup -c rollup.config.umd.js && rollup -c rollup.config.es6.js",
+    "pretest": "rollup -c rollup.config.test.js",
+    "test": "mocha build/test-bundle.js",
+    "prepublish": "npm run build && npm test",
+    "try": "node dist/kolla.umd.js"
+  },
+  "bin" : {
+    "kolla" : "./dist/kolla.umd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eventualbuddha/kolla.git"
+  },
+  "keywords": [
+    "es6",
+    "modules",
+    "rollup",
+    "bundle",
+    "browser"
+  ],
+  "author": "Max Malm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjick/kolla/issues"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "homepage": "https://github.com/benjick/kolla#readme",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "eslint": "^1.10.3",
+    "mocha": "^2.3.4",
+    "rollup": "^0.24.1",
+    "rollup-plugin-babel": "^2.3.9",
+    "rollup-plugin-multi-entry": "^1.1.0",
+    "source-map-support": "^0.4.0"
+  },
+  "dependencies": {
+    "chokidar": "^1.4.2"
+  }
+}
