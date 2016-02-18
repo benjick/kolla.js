@@ -1,7 +1,7 @@
 {
   "name": "kolla",
-  "version": "0.0.6",
-  "description": "Sample project for packages built with rollup.",
+  "version": "0.0.7",
+  "description": "Simple file watcher based on chokidar.",
   "main": "dist/kolla.umd.js",
   "jsnext:main": "dist/kolla.es6.js",
   "scripts": {
@@ -20,11 +20,7 @@
     "url": "git+https://github.com/benjick/kolla.git"
   },
   "keywords": [
-    "es6",
-    "modules",
-    "rollup",
-    "bundle",
-    "browser"
+    "watch", "watcher", "chokidar", "watchify"
   ],
   "author": "Max Malm",
   "license": "MIT",
