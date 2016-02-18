@@ -1,10 +1,10 @@
-# kolla.js
+# kolla.js 👀
 
 Watch files and trigger actions. Uses [chokidar](https://github.com/paulmillr/chokidar) to watch the filesystem.
 
 ## Install
 
-`npm install --save kolla`
+`npm install --save-dev kolla`
 
 ## Usage
 
