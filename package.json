@@ -1,6 +1,6 @@
 {
   "name": "kolla",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sample project for packages built with rollup.",
   "main": "dist/kolla.umd.js",
   "jsnext:main": "dist/kolla.es6.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eventualbuddha/kolla.git"
+    "url": "git+https://github.com/benjick/kolla.git"
   },
   "keywords": [
     "es6",
